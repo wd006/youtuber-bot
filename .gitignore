@@ -1,0 +1,28 @@
+# Python Sanal Ortam Klasörü
+# Bu klasör işletim sistemine özeldir ve çok büyüktür, asla repoya eklenmez.
+venv/
+
+# Python Cache Dosyaları
+# Python'un hızlanmak için oluşturduğu geçici dosyalar.
+__pycache__/
+*.pyc
+
+# Hassas Bilgiler ve API Anahtarları
+# BU DOSYALAR ASLA GITHUB'A YÜKLENMEMELİ!
+client_secrets.json
+token.pickle
+config.json
+
+# Üretilen Geçici Medya Dosyaları
+# Script'in çalışırken ürettiği çıktılar, kaynak kod değiller.
+*.jpg
+*.mp4
+temp_*
+
+# İşletim Sistemi / Editör Özel Dosyaları
+.DS_Store
+._.DS_Store
+._*
+.vscode/
+.idea/
+old
